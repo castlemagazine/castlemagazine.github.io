@@ -23,7 +23,7 @@ body {
 
 #intro {
   background: #F7F0F2;
-  height: 95vh;
+  height: 100vh;
 }
 
 #introsec {
@@ -53,7 +53,8 @@ body {
 
 #health {
   background: #FF3859;
-  height: 95vh;
+  font: #000;
+  height: 100vh;
 }
 
 #healthsec {
