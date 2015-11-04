@@ -14,7 +14,7 @@ html {
 
 body {
   background: #F7F0F2;
-  font-size: 1em;
+  font-size: 4em;
   font-family: 'Averta', sans-serif;
   margin: 0 auto;
   padding-top: 30px;
@@ -23,8 +23,8 @@ body {
   max-width: 900px;
 }
 
-@media only screen and (max-width: 900px) {body {font-size: 0.8em; max-width: 720px;}}
-@media only screen and (max-width: 500px) {body {font-size: 0.6em; max-width: 400px;}}
+@media only screen and (max-width: 900px) {body {font-size: 4em; max-width: 720px;}}
+@media only screen and (max-width: 500px) {body {font-size: 3em; max-width: 400px;}}
 
 #introtext {
   padding-top: 30px;
