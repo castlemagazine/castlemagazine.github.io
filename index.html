@@ -6,63 +6,12 @@
   <meta name="description" content="A magazine for people who treasure games and appreciate print">
   <link rel="stylesheet" href="style.css">
   </head>
-  
-  <script>
-   if (document.documentElement.clientWidth > 450) {
-    $('#container').fullpage({
-      autoScrolling: true,
-       fixedElements: '#header',
-       anchors: ['intro', 'health', 'info'],
-       menu: '#menu',
-       loopHorizontal: false,
-       scrollDelay: 800,
-       scrollOverflow: true,
-       resize: false,
-       css3: true,
-       touchSensitivity: 6,
-       responsive: 450,
-       onSlideLeave: function() {
-         $('.active .about').not('.hideFix').css('z-index', 0);
-         setTimeout(function() {
-           $('.active .about').not('.hideFix').css('z-index', 2);
-         }, 700);
-       }
-     });
-   };
-  </script>
-  
-  <style type="text/css">
-.intro {
-      background-size: 100%;
-      background-color: #F7F0F2;
-}
-
-.health {
-      background-size: 100%;
-      background-color: #FFF;
-}
-
-.info {
-      background-size: 100%;
-      background-color: #000;
-}
-
-</style>
-  
   <body>
-    <div class='intro section' data-anchor='intro'>
+    <div id='intro'>
     <div id='logo'><img src='assets/Castle_logo.svg'></div>
     <div id='introtext'>
       Castle is a modern magazine for people who treasure games and appreciate print.
     </div>
-    </div>
-    
-    <div class='health section' data-anchor='health'>
-      Health issue
-    </div>
-    
-    <div class='info section' data-anchor='info'>
-      Contact us
     </div>
   </body>
 </html>
