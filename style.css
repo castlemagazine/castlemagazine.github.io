@@ -37,7 +37,7 @@ body {
 #introtext {
   padding-top: 5px;
   padding-left: 120px;
-  color: #FFF;
+  color: #000;
 }
 
 @media only screen and (max-width: 900px) {#introtext {padding-left: 70px;}}
@@ -68,7 +68,7 @@ body {
 #healthtext {
   padding-top: 5px;
   padding-left: 120px;
-  color: #000;
+  color: #FFF;
 }
 
 @media only screen and (max-width: 900px) {#healthtext {padding-left: 70px;}}
