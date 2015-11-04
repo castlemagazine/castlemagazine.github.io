@@ -15,18 +15,18 @@ html {
 body {
   font-size: 2em;
   font-family: 'Averta', sans-serif;
-}
-
-#intro {
-  top: 0px;
-  bottom: 0px;
-  width: 100%;
   background: #F7F0F2;
   margin: 0 auto;
   padding-top: 30px;
   padding-left: 15%;
   padding-right: 15%;
   max-width: 900px;
+}
+
+#intro {
+  top: 0px;
+  bottom: 0px;
+  width: 100%;
 }
 
 @media only screen and (max-width: 900px) {body {font-size: 1.5em; max-width: 720px;}}
