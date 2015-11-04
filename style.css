@@ -19,8 +19,8 @@ body {
   margin: 30px 20% 0 20%;
 }
 
-@media only screen and (max-width: 900px) {body {font-size: 28px; max-width: 900px;}}
-@media only screen and (max-width: 500px) {body {font-size: 20px; max-width: 500px;}}
+@media only screen and (max-width: 900px) {body {font-size: 28px; max-width: 720px;}}
+@media only screen and (max-width: 500px) {body {font-size: 20px; max-width: 400px;}}
 
 textarea {
   resize: vertical; }
