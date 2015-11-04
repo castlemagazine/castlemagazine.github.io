@@ -13,7 +13,6 @@ html {
 }
 
 body {
-  background: #F7F0F2;
   font-size: 2em;
   font-family: 'Averta', sans-serif;
   margin: 0 auto;
@@ -21,6 +20,10 @@ body {
   padding-left: 15%;
   padding-right: 15%;
   max-width: 900px;
+}
+
+#intro {
+  background: #F7F0F2;
 }
 
 @media only screen and (max-width: 900px) {body {font-size: 1.5em; max-width: 720px;}}
