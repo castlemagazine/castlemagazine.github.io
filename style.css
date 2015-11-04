@@ -15,6 +15,7 @@ html {
 body {
   font-size: 2em;
   font-family: 'Averta', sans-serif;
+  line-height: 120%;
   background: #000;
 }
 
