@@ -69,7 +69,7 @@ body {
 #healthtext {
   padding-top: 5px;
   padding-left: 120px;
-  color: #FFF;
+  color: #F7F0F2;
 }
 
 @media only screen and (max-width: 900px) {#healthtext {padding-left: 70px;}}
@@ -91,7 +91,7 @@ body {
 #infotext {
   padding-top: 5px;
   padding-left: 120px;
-  color: #FFF;
+  color: #F7F0F2;
 }
 
 @media only screen and (max-width: 900px) {#infotext {padding-left: 70px;}}
