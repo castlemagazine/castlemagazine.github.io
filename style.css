@@ -22,6 +22,9 @@ body {
 
 #intro {
   background: #F7F0F2;
+}
+
+#introsec {
   margin: 0 auto;
   padding-top: 30px;
   padding-left: 15%;
