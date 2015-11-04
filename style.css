@@ -32,11 +32,11 @@ body {
 }
 
 #logo {
-  width: 200px;
+  width: 90px;
 }
 
-@media only screen and (max-width: 900px) {logo {width: 150px;}}
-@media only screen and (max-width: 500px) {logo {width: 120px;}}
+@media only screen and (max-width: 900px) {logo {width: 75px;}}
+@media only screen and (max-width: 500px) {logo {width: 55px;}}
 
 textarea {
   resize: vertical; }
