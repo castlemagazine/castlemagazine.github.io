@@ -74,5 +74,27 @@ body {
 @media only screen and (max-width: 900px) {#healthtext {padding-left: 70px;}}
 @media only screen and (max-width: 500px) {#healthtext {padding-left: 50px;}}
 
+#info {
+  background: #000;
+  height: 100vh;
+}
+
+#infosec {
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-left: 15%;
+  padding-right: 15%;
+  max-width: 900px;
+}
+
+#infotext {
+  padding-top: 5px;
+  padding-left: 120px;
+  color: #FFF;
+}
+
+@media only screen and (max-width: 900px) {#infotext {padding-left: 70px;}}
+@media only screen and (max-width: 500px) {#infotext {padding-left: 50px;}}
+
 textarea {
   resize: vertical; }
