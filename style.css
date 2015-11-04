@@ -31,8 +31,8 @@ body {
   padding-left: 120px;
 }
 
-@media only screen and (max-width: 900px) {#introtext {padding-left: 90px;}}
-@media only screen and (max-width: 500px) {#introtext {padding-left: 70px;}}
+@media only screen and (max-width: 900px) {#introtext {padding-left: 70px;}}
+@media only screen and (max-width: 500px) {#introtext {padding-left: 50px;}}
 
 #logo {
   width: 60px;
