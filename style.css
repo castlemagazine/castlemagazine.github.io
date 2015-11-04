@@ -26,7 +26,7 @@ body {
 @media only screen and (max-width: 900px) {body {font-size: 28px; max-width: 720px;}}
 @media only screen and (max-width: 500px) {body {font-size: 20px; max-width: 400px;}}
 
-introtext {
+#introtext {
   padding-top: 30px;
 }
 
