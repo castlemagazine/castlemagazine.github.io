@@ -20,7 +20,7 @@ body {
 @media only screen and (max-width: 900px) {body {font-size: 1.5em; max-width: 720px;}}
 @media only screen and (max-width: 500px) {body {font-size: 1.2em; max-width: 450px;}}
 
-#intro {
+.intro {
   background: #F7F0F2;
   margin: 0 auto;
   padding-top: 30px;
@@ -29,7 +29,7 @@ body {
   max-width: 900px;
 }
 
-#introtext {
+.introtext {
   padding-top: 5px;
   padding-left: 120px;
 }
@@ -37,7 +37,7 @@ body {
 @media only screen and (max-width: 900px) {#introtext {padding-left: 70px;}}
 @media only screen and (max-width: 500px) {#introtext {padding-left: 50px;}}
 
-#logo {
+.logo {
   width: 60px;
   height: 100%;
   float: left;
