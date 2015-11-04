@@ -27,18 +27,18 @@ body {
 @media only screen and (max-width: 500px) {body {font-size: 1.2em; max-width: 400px;}}
 
 #introtext {
-  width: 80%;
+  width: 900px;
   padding-top: 30px;
   padding-left: 5px;
 }
 
 #logo {
-  width: 10%;
+  width: 90px;
   height: 100%;
 }
 
-@media only screen and (max-width: 900px) {#logo {width: 7%;}}
-@media only screen and (max-width: 500px) {#logo {width: 5.5%;}}
+@media only screen and (max-width: 900px) {#logo {width: 70px;}}
+@media only screen and (max-width: 500px) {#logo {width: 55px;}}
 
 textarea {
   resize: vertical; }
