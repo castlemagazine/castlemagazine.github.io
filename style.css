@@ -15,14 +15,6 @@ html {
 body {
   font-size: 2em;
   font-family: 'Averta', sans-serif;
-}
-
-@media only screen and (max-width: 900px) {body {font-size: 1.5em; max-width: 720px;}}
-@media only screen and (max-width: 500px) {body {font-size: 1.2em; max-width: 450px;}}
-
-#page1 {
-  height: 100vh;
-  width: 100vh;
   background: #F7F0F2;
   margin: 0 auto;
   padding-top: 30px;
@@ -31,8 +23,8 @@ body {
   max-width: 900px;
 }
 
-#intro {
-}
+@media only screen and (max-width: 900px) {body {font-size: 1.5em; max-width: 720px;}}
+@media only screen and (max-width: 500px) {body {font-size: 1.2em; max-width: 450px;}}
 
 #introtext {
   padding-top: 5px;
