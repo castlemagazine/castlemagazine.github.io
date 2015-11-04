@@ -3,10 +3,19 @@ html {
   min-height: 100%;
 }
 
+@font-face{ 
+	font-family: 'Averta';
+	src: url('fonts/averta-regular-webfont.eot');
+	src: url('fonts/averta-regular-webfont.eot?#iefix') format('embedded-opentype'),
+	     url('fonts/averta-regular-webfont.woff') format('woff'),
+	     url('fonts/averta-regular-webfont.ttf') format('truetype'),
+	     url('fonts/averta-regular-webfont.svg#webfont') format('svg');
+}
+
 body {
   background: #d2ffec;
   font-size: 24px;
-  font-family: 'Merriweather', serif;
+  font-family: 'Averta', sans-serif;
   margin: 30px 20% 0 20%;
 }
 
