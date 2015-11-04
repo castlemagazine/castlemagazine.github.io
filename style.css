@@ -23,12 +23,6 @@ body {
   max-width: 900px;
 }
 
-#intro {
-  top: 0px;
-  bottom: 0px;
-  width: 100%;
-}
-
 @media only screen and (max-width: 900px) {body {font-size: 1.5em; max-width: 720px;}}
 @media only screen and (max-width: 500px) {body {font-size: 1.2em; max-width: 450px;}}
 
