@@ -51,10 +51,26 @@ body {
 @media only screen and (max-width: 900px) {#logo {width: 45px;}}
 @media only screen and (max-width: 500px) {#logo {width: 35px;}}
 
-footer {
-  font: #FFF, 1em;
-  text-align: center;
+#health {
+  background: #FF3859;
+  height: 95vh;
 }
+
+#healthsec {
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-left: 15%;
+  padding-right: 15%;
+  max-width: 900px;
+}
+
+#healthtext {
+  padding-top: 5px;
+  padding-left: 120px;
+}
+
+@media only screen and (max-width: 900px) {#healthtext {padding-left: 70px;}}
+@media only screen and (max-width: 500px) {#healthtext {padding-left: 50px;}}
 
 textarea {
   resize: vertical; }
