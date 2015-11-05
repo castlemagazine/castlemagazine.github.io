@@ -28,8 +28,8 @@ h1 {
   line-height: 150%;
 }
 
-@media only screen and (max-width: 900px) {body {font-size: 1.6em;}}
-@media only screen and (max-width: 500px) {body {font-size: 1.2em;}}
+@media only screen and (max-width: 900px) {h1 {font-size: 1.6em;}}
+@media only screen and (max-width: 500px) {h1 {font-size: 1.2em;}}
 
 #intro {
   background: #F7F0F2;
