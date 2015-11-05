@@ -13,14 +13,11 @@ html {
 }
 
 body {
-  font-size: 1em;
   font-family: 'Averta', sans-serif;
   line-height: 150%;
   background: #000;
 }
 
-@media only screen and (max-width: 900px) {body {font-size: 0.8em;}}
-@media only screen and (max-width: 500px) {body {font-size: 0.6em;}}
 
 h1 {
   font-size: 2em;
@@ -30,6 +27,16 @@ h1 {
 
 @media only screen and (max-width: 900px) {h1 {font-size: 1.6em;}}
 @media only screen and (max-width: 500px) {h1 {font-size: 1.2em;}}
+
+h2 {
+  font-size: 1em;
+  font-family: 'Averta', sans-serif;
+  line-height: 150%;
+  max-width: 600px;
+}
+
+@media only screen and (max-width: 900px) {h2 {font-size: 0.8em; max-width: 500px;}}
+@media only screen and (max-width: 500px) {h2 {font-size: 0.6em; max-width: 300px;}}
 
 #intro {
   background: #F7F0F2;
