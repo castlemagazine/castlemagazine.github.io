@@ -78,6 +78,16 @@ h2 {
 @media only screen and (max-width: 900px) {#logo {width: 45px;}}
 @media only screen and (max-width: 500px) {#logo {width: 35px;}}
 
+#logowhite {
+  fill: #FFF;
+  width: 60px;
+  height: 100%;
+  float: left;
+}
+
+@media only screen and (max-width: 900px) {#logowhite {width: 45px;}}
+@media only screen and (max-width: 500px) {#logowhite {width: 35px;}}
+
 #health {
   background: #FF3859;
   height: 85vh;
