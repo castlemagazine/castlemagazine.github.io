@@ -58,8 +58,8 @@ h2 {
   max-width: 900px;
 }
 
-@media only screen and (max-width: 900px) {introsec {max-width: 720px;}}
-@media only screen and (max-width: 500px) {introsec {max-width: 450px;}}
+@media only screen and (max-width: 900px) {#introsec {max-width: 720px;}}
+@media only screen and (max-width: 500px) {#introsec {max-width: 450px;}}
 
 #introtext {
   padding-top: 5px;
@@ -81,7 +81,7 @@ h2 {
 
 #health {
   background: #FF3859;
-  height: 80vh;
+  height: 85vh;
   position: relative;
   z-index: 2;
   margin-top: 100vh;
@@ -90,14 +90,14 @@ h2 {
 
 #healthsec {
   margin: 0 auto;
-  padding-top: 30px;
+  padding-top: 5vh;
   padding-left: 15%;
   padding-right: 15%;
   max-width: 900px;
 }
 
-@media only screen and (max-width: 900px) {healthsec {max-width: 720px;}}
-@media only screen and (max-width: 500px) {healthsec {max-width: 450px;}}
+@media only screen and (max-width: 900px) {#healthsec {max-width: 720px;}}
+@media only screen and (max-width: 500px) {#healthsec {max-width: 450px;}}
 
 #healthtext {
   padding-top: 5px;
@@ -110,21 +110,21 @@ h2 {
 
 #info {
   background: #000;
-  height: 20vh;
+  height: 15vh;
   position: relative;
   z-index: 2;
 }
 
 #infosec {
   margin: 0 auto;
-  padding-top: 30px;
+  padding-top: 5vh;
   padding-left: 15%;
   padding-right: 15%;
   max-width: 900px;
 }
 
-@media only screen and (max-width: 900px) {infosec {max-width: 720px;}}
-@media only screen and (max-width: 500px) {infosec {max-width: 450px;}}
+@media only screen and (max-width: 900px) {#infosec {max-width: 720px;}}
+@media only screen and (max-width: 500px) {#infosec {max-width: 450px;}}
 
 #infotext {
   padding-top: 5px;
