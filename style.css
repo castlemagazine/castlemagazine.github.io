@@ -21,6 +21,9 @@ body {
   padding-top: 8px;
 }
 
+a {
+  border-bottom: 2px solid;
+}
 
 h1 {
   font-size: 2em;
