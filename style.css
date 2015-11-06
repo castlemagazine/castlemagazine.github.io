@@ -52,7 +52,7 @@ h2 {
 
 #introsec {
   margin: 0 auto;
-  padding-top: 5vh;
+  padding-top: 2vh;
   padding-left: 15%;
   padding-right: 15%;
   max-width: 900px;
@@ -62,7 +62,6 @@ h2 {
 @media only screen and (max-width: 500px) {#introsec {max-width: 450px;}}
 
 #introtext {
-  padding-top: 5px;
   padding-left: 120px;
   color: #000;
 }
@@ -90,7 +89,7 @@ h2 {
 
 #healthsec {
   margin: 0 auto;
-  padding-top: 5vh;
+  padding-top: 2vh;
   padding-left: 15%;
   padding-right: 15%;
   max-width: 900px;
@@ -117,7 +116,7 @@ h2 {
 
 #infosec {
   margin: 0 auto;
-  padding-top: 5vh;
+  padding-top: 2vh;
   padding-left: 15%;
   padding-right: 15%;
   max-width: 900px;
