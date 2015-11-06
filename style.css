@@ -47,6 +47,7 @@ h2 {
   position: fixed;
   width: calc(100% - 16px);
   z-index: 1;
+  padding-bottom: 8px;
 }
 
 #introsec {
@@ -84,6 +85,7 @@ h2 {
   position: relative;
   z-index: 2;
   margin-top: 100vh;
+  padding-bottom: 8px;
 }
 
 #healthsec {
