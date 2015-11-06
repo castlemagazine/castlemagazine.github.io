@@ -16,6 +16,7 @@ body {
   font-family: 'Averta', sans-serif;
   line-height: 150%;
   background: #000;
+  position: relative;
   margin: 0;
   padding: 8px;
 }
@@ -43,6 +44,9 @@ h2 {
 #intro {
   background: #F7F0F2;
   height: 100vh;
+  position: fixed;
+  width: calc(100% - 16px);
+  z-index: 1;
 }
 
 #introsec {
@@ -77,6 +81,9 @@ h2 {
 #health {
   background: #FF3859;
   height: 110vh;
+  position: relative;
+  z-index: 2;
+  margin-top: 100vh;
 }
 
 #healthsec {
@@ -101,7 +108,9 @@ h2 {
 
 #info {
   background: #000;
-  height: 100vh;
+  padding: 60px;
+  position: relative;
+  z-index: 2;
 }
 
 #infosec {
