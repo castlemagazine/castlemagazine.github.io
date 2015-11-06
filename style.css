@@ -16,6 +16,8 @@ body {
   font-family: 'Averta', sans-serif;
   line-height: 150%;
   background: #000;
+  margin: 0;
+  padding: 8px;
 }
 
 
