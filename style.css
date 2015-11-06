@@ -40,7 +40,7 @@ h2 {
 
 #intro {
   background: #F7F0F2;
-  padding-bottom: 60px;
+  height: 100vh;
 }
 
 #introsec {
@@ -74,7 +74,7 @@ h2 {
 
 #health {
   background: #FF3859;
-  padding-bottom: 60px;
+  height: 110vh;
 }
 
 #healthsec {
@@ -99,7 +99,7 @@ h2 {
 
 #info {
   background: #000;
-  padding-bottom: 60px;
+  height: 100vh;
 }
 
 #infosec {
