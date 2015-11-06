@@ -18,7 +18,7 @@ body {
   background: #000;
   position: relative;
   margin: 0;
-  padding: 8px;
+  padding-top: 8px;
 }
 
 
@@ -45,7 +45,7 @@ h2 {
   background: #F7F0F2;
   height: 100vh;
   position: fixed;
-  width: calc(100% - 16px);
+  width: 100%;
   z-index: 1;
   padding-bottom: 8px;
 }
