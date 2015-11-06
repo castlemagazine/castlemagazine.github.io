@@ -99,7 +99,7 @@ h2 {
 
 #healthsec {
   margin: 0 auto;
-  padding-top: 2vh;
+  padding-top: cal(2vh + 8px);
   padding-left: 15%;
   padding-right: 15%;
   max-width: 900px;
@@ -109,7 +109,6 @@ h2 {
 @media only screen and (max-width: 500px) {#healthsec {max-width: 450px;}}
 
 #healthtext {
-  padding-top: 5px;
   padding-left: 120px;
   color: #F7F0F2;
 }
@@ -136,7 +135,6 @@ h2 {
 @media only screen and (max-width: 500px) {#infosec {max-width: 450px;}}
 
 #infotext {
-  padding-top: 5px;
   padding-left: 120px;
   color: #F7F0F2;
 }
