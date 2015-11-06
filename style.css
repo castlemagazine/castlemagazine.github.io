@@ -99,7 +99,7 @@ h2 {
 
 #healthsec {
   margin: 0 auto;
-  padding-top: cal(2vh + 8px);
+  padding-top: calc(2vh + 8px);
   padding-left: 15%;
   padding-right: 15%;
   max-width: 900px;
