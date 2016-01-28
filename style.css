@@ -32,6 +32,7 @@ h1 {
   font-size: 2em;
   font-family: 'Averta', sans-serif;
   line-height: 150%;
+  letter-spacing: 1px;
 }
 
 @media only screen and (max-width: 900px) {h1 {font-size: 1.6em;}}
