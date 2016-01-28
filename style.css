@@ -5,11 +5,32 @@ html {
 
 @font-face{ 
 	font-family: 'Averta';
+	weight: 400;
 	src: url('fonts/averta-regular-webfont.eot');
 	src: url('fonts/averta-regular-webfont.eot?#iefix') format('embedded-opentype'),
 	     url('fonts/averta-regular-webfont.woff') format('woff'),
 	     url('fonts/averta-regular-webfont.ttf') format('truetype'),
 	     url('fonts/averta-regular-webfont.svg#webfont') format('svg');
+}
+
+@font-face{ 
+	font-family: 'Averta';
+	weight: 200;
+	src: url('fonts/averta-light-webfont.eot');
+	src: url('fonts/averta-light-webfont.eot?#iefix') format('embedded-opentype'),
+	     url('fonts/averta-light-webfont.woff') format('woff'),
+	     url('fonts/averta-light-webfont.ttf') format('truetype'),
+	     url('fonts/averta-light-webfont.svg#webfont') format('svg');
+}
+
+@font-face{ 
+	font-family: 'Averta';
+	weight: 600;
+	src: url('fonts/averta-semibold-webfont.eot');
+	src: url('fonts/averta-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+	     url('fonts/averta-semibold-webfont.woff') format('woff'),
+	     url('fonts/averta-semibold-webfont.ttf') format('truetype'),
+	     url('fonts/averta-semibold-webfont.svg#webfont') format('svg');
 }
 
 body {
@@ -68,7 +89,7 @@ h2 {
 @media only screen and (max-width: 500px) {#introsec {max-width: 450px;}}
 
 #introtext {
-  padding-left: 120px;
+
   color: #000;
 }
 
@@ -77,8 +98,8 @@ h2 {
 
 #logo {
   width: 60px;
+  position:absolute
   height: 100%;
-  float: left;
 }
 
 @media only screen and (max-width: 900px) {#logo {width: 45px;}}
