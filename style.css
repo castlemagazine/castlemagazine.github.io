@@ -48,6 +48,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  background-color: #ff345a;
+}
+
 h1 {
   font-size: 2em;
   font-family: 'Averta', sans-serif;
