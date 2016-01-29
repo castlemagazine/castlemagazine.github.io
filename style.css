@@ -84,5 +84,11 @@ h1 {
 @media only screen and (max-width: 900px) {#logo {width: 45px;}}
 @media only screen and (max-width: 500px) {#logo {width: 35px;}}
 
+#headerBar {
+  height: 10px;
+  width: 100%;
+  background-color: #000;
+}
+
 textarea {
   resize: vertical; }
