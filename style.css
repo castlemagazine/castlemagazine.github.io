@@ -37,8 +37,14 @@ body {
   font-family: 'Averta', sans-serif;
   line-height: 150%;
   background: #e5e5e5;
-  margin: 0;
-  padding-top: 8px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 2vh;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-bottom: 8px;
+  max-width: 900px;
+  color: #000;
 }
 
 a {
@@ -58,21 +64,6 @@ h1 {
 
 @media only screen and (max-width: 900px) {h1 {font-size: 1.6em;}}
 @media only screen and (max-width: 500px) {h1 {font-size: 1.2em;}}
-
-#intro {
-  background: #e5e5e5;
-  width: 100%;
-  margin: 0 auto;
-  padding-top: 2vh;
-  padding-left: 15%;
-  padding-right: 15%;
-  padding-bottom: 8px;
-  max-width: 900px;
-  color: #000;
-}
-
-@media only screen and (max-width: 900px) {#intro {max-width: 720px;}}
-@media only screen and (max-width: 500px) {#intro {max-width: 450px;}}
 
 #logo {
   width: 60px;
