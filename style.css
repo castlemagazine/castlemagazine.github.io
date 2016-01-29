@@ -39,10 +39,6 @@ body {
   background: #e5e5e5;
   width: 100%;
   margin: 0 auto;
-  padding-top: 2vh;
-  padding-left: 15%;
-  padding-right: 15%;
-  padding-bottom: 8px;
   color: #000;
 }
 
@@ -66,6 +62,10 @@ h1 {
 
 #intro {
   max-width: 900px;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-bottom: 8px;
+  padding-top: 3vh;
 }
 
 @media only screen and (max-width: 900px) {#intro {max-width: 720px;}}
@@ -82,7 +82,7 @@ h1 {
 @media only screen and (max-width: 500px) {#logo {width: 35px;}}
 
 #headerBar {
-  height: 10px;
+  height: 7px;
   width: 100%;
   background-color: #000;
 }
