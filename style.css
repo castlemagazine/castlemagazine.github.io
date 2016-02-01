@@ -4,37 +4,27 @@ html {
 }
 
 @font-face{ 
-	font-family: 'Averta';
+	font-family: 'Argent CF';
 	font-weight: 200;
-	src: url('fonts/averta-light-webfont.eot');
-	src: url('fonts/averta-light-webfont.eot?#iefix') format('embedded-opentype'),
-	     url('fonts/averta-light-webfont.woff') format('woff'),
-	     url('fonts/averta-light-webfont.ttf') format('truetype'),
-	     url('fonts/averta-light-webfont.svg#webfont') format('svg');
+	src: url('fonts/argent-cf-light.eot');
+	src: url('fonts/argent-cf-light.eot?#iefix') format('embedded-opentype'),
+	     url('fonts/argent-cf-light.woff') format('woff'),
+	     url('fonts/argent-cf-light.ttf') format('truetype'),
+	     url('fonts/argent-cf-light.svg#webfont') format('svg');
 }
 
 @font-face{ 
-	font-family: 'Averta';
-	font-weight: 400;
-	src: url('fonts/averta-regular-webfont.eot');
-	src: url('fonts/averta-regular-webfont.eot?#iefix') format('embedded-opentype'),
-	     url('fonts/averta-regular-webfont.woff') format('woff'),
-	     url('fonts/averta-regular-webfont.ttf') format('truetype'),
-	     url('fonts/averta-regular-webfont.svg#webfont') format('svg');
-}
-
-@font-face{ 
-	font-family: 'Averta';
+	font-family: 'Argent CF';
 	font-weight: 600;
-	src: url('fonts/averta-semibold-webfont.eot');
-	src: url('fonts/averta-semibold-webfont.eot?#iefix') format('embedded-opentype'),
-	     url('fonts/averta-semibold-webfont.woff') format('woff'),
-	     url('fonts/averta-semibold-webfont.ttf') format('truetype'),
-	     url('fonts/averta-semibold-webfont.svg#webfont') format('svg');
+	src: url('fonts/argent-cf-demi-bold.eot');
+	src: url('fonts/argent-cf-demi-bold.eot?#iefix') format('embedded-opentype'),
+	     url('fonts/argent-cf-demi-bold.woff') format('woff'),
+	     url('fonts/argent-cf-demi-bold.ttf') format('truetype'),
+	     url('fonts/argent-cf-demi-bold.svg#webfont') format('svg');
 }
 
 body {
-  font-family: 'Averta', sans-serif;
+  font-family: 'Argent CF', serif;
   line-height: 150%;
   background: #e5e5e5;
   width: 100%;
@@ -54,7 +44,7 @@ a:hover {
 
 h1 {
   font-size: 2em;
-  font-family: 'Averta', sans-serif;
+  font-family: 'Argent CF', serif;
   font-weight: 400;
   line-height: 150%;
   letter-spacing: 1px;
