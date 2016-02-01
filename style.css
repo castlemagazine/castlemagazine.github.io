@@ -98,8 +98,8 @@ h1 {
   padding-bottom: 35px;
 }
 
-@media only screen and (max-width: 900px) {#logo {width: 45px;}}
-@media only screen and (max-width: 500px) {#logo {width: 35px;}}
+@media only screen and (max-width: 900px) {#logo {width: 65px;}}
+@media only screen and (max-width: 500px) {#logo {width: 50px;}}
 
 #headerBar {
   height: 7px;
