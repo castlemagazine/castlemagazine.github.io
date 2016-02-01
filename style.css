@@ -9,6 +9,7 @@ html {
 	src: url('fonts/argent-cf-light.eot');
 	src: url('fonts/argent-cf-light.eot?#iefix') format('embedded-opentype'),
 	     url('fonts/argent-cf-light.woff') format('woff'),
+	     url('fonts/argent-cf-light.woff2') format('woff2'),
 	     url('fonts/argent-cf-light.ttf') format('truetype'),
 	     url('fonts/argent-cf-light.svg#webfont') format('svg');
 }
@@ -19,6 +20,7 @@ html {
 	src: url('fonts/argent-cf.eot');
 	src: url('fonts/argent-cf.eot?#iefix') format('embedded-opentype'),
 	     url('fonts/argent-cf.woff') format('woff'),
+	     url('fonts/argent-cf.woff2') format('woff2'),
 	     url('fonts/argent-cf.ttf') format('truetype'),
 	     url('fonts/argent-cf.svg#webfont') format('svg');
 }
@@ -29,6 +31,7 @@ html {
 	src: url('fonts/argent-cf-demi-bold.eot');
 	src: url('fonts/argent-cf-demi-bold.eot?#iefix') format('embedded-opentype'),
 	     url('fonts/argent-cf-demi-bold.woff') format('woff'),
+	     url('fonts/argent-cf-demi-bold.woff2') format('woff2'),
 	     url('fonts/argent-cf-demi-bold.ttf') format('truetype'),
 	     url('fonts/argent-cf-demi-bold.svg#webfont') format('svg');
 }
