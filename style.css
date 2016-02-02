@@ -15,25 +15,14 @@ html {
 }
 
 @font-face{ 
-	font-family: 'Argent CF';
-	font-weight: 400;
-	src: url('fonts/argent-cf.eot');
-	src: url('fonts/argent-cf.eot?#iefix') format('embedded-opentype'),
-	     url('fonts/argent-cf.woff') format('woff'),
-	     url('fonts/argent-cf.woff2') format('woff2'),
-	     url('fonts/argent-cf.ttf') format('truetype'),
-	     url('fonts/argent-cf.svg#webfont') format('svg');
-}
-
-@font-face{ 
-	font-family: 'Argent CF';
+	font-family: 'Averta';
 	font-weight: 600;
-	src: url('fonts/argent-cf-demi-bold.eot');
-	src: url('fonts/argent-cf-demi-bold.eot?#iefix') format('embedded-opentype'),
-	     url('fonts/argent-cf-demi-bold.woff') format('woff'),
-	     url('fonts/argent-cf-demi-bold.woff2') format('woff2'),
-	     url('fonts/argent-cf-demi-bold.ttf') format('truetype'),
-	     url('fonts/argent-cf-demi-bold.svg#webfont') format('svg');
+	src: url('fonts/averta-semibold-webfont.eot');
+	src: url('fonts/averta-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+	     url('fonts/averta-semibold-webfont.woff') format('woff'),
+	     url('fonts/averta-semibold-webfont.woff2') format('woff2'),
+	     url('fonts/averta-semibold-webfont.ttf') format('truetype'),
+	     url('fonts/averta-semibold-webfont.svg#webfont') format('svg');
 }
 
 body {
@@ -58,13 +47,24 @@ a:hover {
 h1 {
   font-size: 2em;
   font-family: 'Argent CF', serif;
-  font-weight: 400;
+  font-weight: 200;
   line-height: 150%;
   letter-spacing: 0.02em;
 }
 
 @media only screen and (max-width: 900px) {h1 {font-size: 1.6em;}}
 @media only screen and (max-width: 500px) {h1 {font-size: 1.2em;}}
+
+h2 {
+  font-size: 1em;
+  font-family: 'Averta', serif;
+  font-weight: 600;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+}
+
+@media only screen and (max-width: 900px) {h2 {font-size: 0.8em;}}
+@media only screen and (max-width: 500px) {h2 {font-size: 0.6em;}}
 
 #intro {
   max-width: 900px;
